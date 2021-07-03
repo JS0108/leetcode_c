@@ -31,14 +31,3 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize){
     arr[1] = -1;
     return arr;
 }
-
-int main() {
-    int nums[] = {3, 2, 4};
-    int returnSize;
-    int *arr = twoSum(nums, 3, 6, &returnSize);
-
-    for (int i = 0; i < 2;i++)
-        printf("%d ", arr[i]);
-
-    return 0;
-}
